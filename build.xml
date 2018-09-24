@@ -1,14 +1,10 @@
 <project name="CountThrees" basedir="." default="main">
 
-    <property name="src.dir"     value="."/>
-
-    <property name="build.dir"   value="../build"/>
+    <property name="src.dir"     value="src"/>
+	<property name="build.dir"   value="build"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.dir"     value="${build.dir}/jar"/>
-
     <property name="main-class"  value="CountThrees"/>
-
-
 
     <target name="clean">
         <delete dir="${build.dir}"/>
