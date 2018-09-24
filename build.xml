@@ -1,4 +1,4 @@
-<project name="CountThrees" basedir="." default="main">
+<project name="CountThrees" basedir="src." default="main">
 
     <property name="src.dir"     value="src"/>
 	<property name="build.dir"   value="build"/>
